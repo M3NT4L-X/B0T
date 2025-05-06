@@ -98,11 +98,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   
   if ((event.body.toLowerCase() == "AYESHA") || (event.body.toLowerCase() == "ayesha")) {
-     return api.sendMessage("আমার বস আজিম - আয়েশা কে ভালোবাসে। কেউ নজর দিবি না-❤️‍🩹", threadID);
+     return api.sendMessage("আমার বস আজিম - এর বড় আপু। কেউ নজর দিবি না-❤️‍🩹", threadID);
    };
 
   if ((event.body.toLowerCase() == "URMI Ke") || (event.body.toLowerCase() == "urmi ke")) {
-     return api.sendMessage("সে একজন মেয়ে, তবে সাধারণ কোনো মেয়ে নয় সে এক ভয়ংকর কালসাপ। তার সবচেয়ে বড় শক্তি? তার রূপ, তার চোখের মায়া-⛏️", threadID);
+     return api.sendMessage("উর্মি সুধু আমার বস আজিমের!😩💗 - তোরা কেউ নজর দিবি না!😾", threadID);
    };
 
   if ((event.body.toLowerCase() == "@Hasib") || (event.body.toLowerCase() == "হাসিব")) {
