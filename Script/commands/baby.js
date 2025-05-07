@@ -159,7 +159,7 @@ try{
  if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("/bot")){
  const arr = body.replace(/^\S+\s*/, "")
  if(!arr) {
- await api.sendMessage("hum xan bolo ami asi ", event.threadID, (error, info) => {
+ await api.sendMessage("𝙃𝙖𝙚 𝙓𝙖𝙣 𝘽𝙤𝙡𝙤 𝘼𝙢𝙞 𝘼𝙘𝙝𝙞›🥂❤️‍🩹", event.threadID, (error, info) => {
  global.client.handleReply.push({
  name: this.config.name,
  type: "reply",
